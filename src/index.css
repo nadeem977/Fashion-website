@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.css-1ygcj2i-MuiTableCell-root,.css-1ex1afd-MuiTableCell-root{
+  border: none !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+  background-color:#C4C664 !important; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&family=Roboto:wght@400;500&display=swap');
+body{
+
+font-family: 'Roboto';
+}
+.dropdown-item{
+  color: #5AB27E !important;
+}
+.dropdown-menu .dropdown-item{
+  background-color: white !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select,.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover{
+  border: 1.5px solid #5AB27E;
+  outline: none;
+}
+label{
+  width:100%;
+}
+.form-select{
+  padding: 10px !important;
+  color: gray !important;
+}
+.css-quj9j6-MuiTable-root{
+  min-width: 950px !important;
+}
+@media (max-width:1000px) {
+  
+  .MuiTypography-h3{
+    font-size: 30px !important;
+  }
+}
+@media (max-width:500px) {
+  
+  .MuiTypography-h3{
+    font-size: 25px !important;
+    padding: 10px;
+  }
+  .css-xmp9fi-MuiTypography-root{
+    font-size: 16px !important;
+  }
+  .MuiTypography-h1 {
+    font-size: 22px !important;
+  }
 }
